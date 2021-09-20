@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    background-color:hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+#info{
+
+    margin :auto 50px 40px 50px;
+}
+body p {
+    color:#6b6b6ed0;
+    font-family: 'Red Hat Display', sans-serif;
+    margin :auto 40px 40px 30px;
+    line-height: 1.5;
+}
+/*
+.main-container{
+    border-radius:10px;
+    position: absolute;
+    left: 300px;
+    bottom: 200px;
+    width: min-content;
+    height: 500px;
+}*/
+.main-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    margin: 50px auto auto auto;
+    left: 400px;
+    top: 10px;
+    width: min-content;
+    height: 650px;
+    text-align: center;
+    padding: 0;
+}
+.illustration{
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.pricing-tab{
+    background-color: #F8F9FE;
+    border-radius: 10px;
+    text-align: left;
+    margin: auto 50px 20px 70px;
+    width: 75%;
+    height: 85px;
+}
+.pricing-tab p{
+    padding-top: 20px;
+    padding-left:55px;
+}
+.music-icon{
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.change{
+    text-align: right;
+}
+.BUTTON_EYV {
+   background: #382AE1;
+   background-image: -webkit-linear-gradient(top, #382AE1, #382AE1);
+   background-image: -moz-linear-gradient(top#382AE1, #382AE1);
+   background-image: -ms-linear-gradient(top,#382AE1,#382AE1);
+   background-image: -o-linear-gradient(top,#382AE1,#382AE1);
+   background-image: -webkit-gradient(to bottom, #382AE1, #382AE1);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Red Hat Display', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   -webkit-box-shadow: 0 4px 12px 1px #000000;
+   -moz-box-shadow: 0 4px 12px 1px #000000;
+   box-shadow: 0 4px 12px 1px #000000;
+   border: solid #382AE1 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   position: relative;
+   margin: 20px 50px 20px 50px;
+}
+
+.BUTTON_EYV:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.attribution{
+    position: absolute;
+    margin-top: 300px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.pricing-tab  a{
+    float:inline-end;
+    position: relative;
+    left: 255px;
+    bottom: 70px;
+    color:#3e0e66;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: 0;
+}
